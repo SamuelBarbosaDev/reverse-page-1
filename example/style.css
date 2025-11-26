@@ -1,0 +1,107 @@
+/* GLOBAL */
+:root{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    box-shadow: none;
+}
+
+/* Colors */
+:root{
+    --primary: #ffdf6f; /*rgb(247, 147, 26);*/ 
+    --secondary: rgb(173, 173, 173);
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+    --white-transparency: rgba(173, 173, 173, 0.486);
+
+}
+
+/* Gap */
+:root{
+    --gap: 3rem;
+}
+
+/* body{
+    background-color: red;
+} */
+
+/* Header */
+#header > section{
+    width: 90%;
+    height: 7rem;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.header-container-logo{
+    display: inline;
+}
+
+.header-logo{
+    height: auto;
+    width: 5rem;
+}
+
+.header-link{
+    display: flex;
+    gap: 2rem;
+}
+
+.header-link > a{
+    font-size: 1.5rem;
+    color: var(--secondary);
+}
+
+.header-button{
+    display: flex;
+    gap: 2rem;
+
+}
+
+.button-pay{
+    cursor: pointer;
+    font-weight: 900;
+    color: var(--black);
+    border-radius: .5rem;
+    padding: 0.75rem 1.25rem;
+    background-color: var(--primary);
+}
+
+.button-pay:hover{
+    transition: 100ms;
+    background-color: rgb(105, 67, 20);
+}
+
+.button-black{
+    cursor: pointer;
+    font-weight: 900;
+    color: var(--white);
+    border: 0.1rem solid var(--white);
+    border-radius: .5rem;
+    padding: 0.75rem 1.25rem;
+    background-color: var(--black);
+}
+
+.button-black:hover{
+    transition: 100ms;
+    background-color: var(white-transparency);
+}
